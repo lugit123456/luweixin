@@ -1,0 +1,169 @@
+<extend name="./public/indexlayout"/>
+<block name="head">
+    <title>商品列表</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/shop.style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/scrollbar/src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/plugins/noUiSlider/jquery.nouislider.css">
+
+    <!-- Style Switcher -->
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/plugins/style-switcher.css">
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/theme-colors/default.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/custom.css">
+</block>
+<block name="centre">
+    <!--=== Breadcrumbs v4 ===-->
+    <div class="breadcrumbs-v4">
+        <div class="container">
+            <span class="page-name">Product Filter Page</span>
+            <h1>Maecenas <span class="shop-green">enim</span> sapien</h1>
+            <ul class="breadcrumb-v4-in">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li class="active">Product Filter Page</li>
+            </ul>
+        </div><!--/end container-->
+    </div>
+    <!--=== End Breadcrumbs v4 ===-->
+
+    <!--=== Content Part ===-->
+  <div class="content container">
+            <div class="col-md-9">
+                <div class="row margin-bottom-5">
+                    <div class="col-sm-4 result-category">
+                        <h2>Men</h2>
+                        <small class="shop-bg-red badge-results">45 Results</small>
+                    </div>
+                    <div class="col-sm-8">
+                        <ul class="list-inline clear-both">
+                            <li class="grid-list-icons">
+                                <a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>
+                                <a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>
+                            </li>
+                            <li class="sort-list-btn">
+                                <h3>Sort By :</h3>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        Popularity <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">Best Sales</a></li>
+                                        <li><a href="#">Top Last Week Sales</a></li>
+                                        <li><a href="#">New Arrived</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sort-list-btn">
+                                <h3>Show :</h3>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        20 <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">10</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--/end result category-->
+
+                <div class="filter-results">
+                    <div class="row illustration-v2 margin-bottom-30">
+                        <foreach name="goods" item="v">
+                        <div class="col-md-4">
+                            <div class="product-img product-img-brd">
+                                <a href="{:U('goods_detail')}?id={$v['id']}"><img class="full-width img-responsive" src="__PUBLIC__/assets/upload/{$v['pic']}" alt=""></a>
+                                <a class="product-review" href="shop-ui-inner.html">Quick review</a>
+                                <a class="add-to-cart" href="{:U('Home/Windex/Cartlst')}?id={$v['id']}"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                <div class="shop-rgba-dark-green rgba-banner">New</div>
+                            </div>
+                            <div class="product-description product-description-brd margin-bottom-30">
+                                <div class="overflow-h margin-bottom-5">
+                                    <div class="pull-left">
+                                        <h4 class="title-price"><a href="{:U('goods_detail')}?id={$v['id']}">{$v['goodsname']}</a></h4>
+                                        <span class="gender text-uppercase">Men</span>
+                                        <span class="gender">Suits - Blazers</span>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="title-price">${$v['price']}</span>
+                                        <span class="title-price line-through">${$v['marketprice']}</span>
+                                    </div>
+                                </div>
+                                <ul class="list-inline product-ratings">
+                                    <li><i class="rating-selected fa fa-star"></i></li>
+                                    <li><i class="rating-selected fa fa-star"></i></li>
+                                    <li><i class="rating-selected fa fa-star"></i></li>
+                                    <li><i class="rating fa fa-star"></i></li>
+                                    <li><i class="rating fa fa-star"></i></li>
+                                    <li class="like-icon"><a data-original-title="Add to wishlist" data-toggle="tooltip" data-placement="left" class="tooltips" href="#"><i class="fa fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </foreach>
+                    </div>
+                </div><!--/end filter resilts-->
+
+                <div class="text-center">
+                    <ul class="pagination pagination-v2">
+                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                </div><!--/end pagination-->
+            </div>
+        </div><!--/end row-->
+    </div><!--/end container-->
+    <!--=== End Content Part ===-->
+    <!--=== Shop Suvbscribe ===-->
+    </div>
+    </block>
+<block name="js">
+<!-- JS Global Compulsory -->
+<script src="__PUBLIC__/assets/plugins/jquery/jquery.min.js"></script>
+<script src="__PUBLIC__/assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="__PUBLIC__/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="__PUBLIC__/assets/plugins/back-to-top.js"></script>
+<script src="__PUBLIC__/assets/plugins/noUiSlider/jquery.nouislider.full.min.js"></script>
+<!-- Scrollbar -->
+<script src="__PUBLIC__/assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
+<script src="__PUBLIC__/assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
+<!-- JS Customization -->
+<script src="__PUBLIC__/assets/js/custom.js"></script>
+<!-- JS Page Level -->
+<script src="__PUBLIC__/assets/js/shop.app.js"></script>
+<script type="text/javascript" src="__PUBLIC__/assets/js/plugins/style-switcher.js"></script>
+<script>
+    jQuery(document).ready(function() {
+        App.init();
+        App.initMouseWheel();
+        StyleSwitcher.initStyleSwitcher();
+    });
+</script>
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/assets/plugins/respond.js"></script>
+<script src="__PUBLIC__/assets/plugins/html5shiv.js"></script>
+<script src="__PUBLIC__/assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="__PUBLIC__/assets/plugins/sky-forms/version-2.0.1/js/jquery.placeholder.min.js"></script>
+<![endif]-->
+</block>

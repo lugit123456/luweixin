@@ -1,0 +1,1815 @@
+[ 2017-12-30T15:26:12+08:00 ] 106.11.242.6 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-12-30T16:41:15+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=a82d682faca9181abc38fd3c1ef33f34d4b016a9&timestamp=1514623275&nonce=160069137&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:41:38+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=b06b6f10d8480d43552595c01fd3e5c42bf918bc&timestamp=1514623298&nonce=32221032&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:41:46+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=965a758d726100dc1af637b57800fb64b27f0bd6&timestamp=1514623304&nonce=1268486014&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:42:03+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=93bf32b683f3bc73b52539cbbe900622a4bf6dc9&timestamp=1514623322&nonce=1335491431&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-12-30T16:42:12+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=efdcd5128de5160c8b8b9df60ee834f620542fcc&timestamp=1514623331&nonce=445733689&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:51:15+08:00 ] 223.211.215.51 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0156s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:51:25+08:00 ] 223.211.215.51 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:51:38+08:00 ] 223.211.215.51 /index.php/Home/Kindex/goods_detail.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `iphone_goods_info` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_goods_info` LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_pic` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `iphone_goods_pic` WHERE ( gid=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:51:53+08:00 ] 223.211.215.51 /index.php/Home/Kindex/goods_detail.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_goods_info` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_goods_info` LIMIT 0,6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_pic` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_goods_pic` WHERE ( gid=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:52:03+08:00 ] 223.211.215.51 /index.php/Home/Kindex/shop-ui-login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:shop-ui-login
+
+[ 2017-12-30T16:52:25+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:52:38+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:52:50+08:00 ] 223.211.215.51 /index.php/home/Lu/sendCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T16:53:05+08:00 ] 223.211.215.51 /index.php/home/Lu/uname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_member` [ RunTime:0.0312s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `iphone_member` WHERE ( uname= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `iphone_member` WHERE ( uname= ) LIMIT 1  
+
+[ 2017-12-30T16:55:28+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=e121c7c29c056691bacaa531fbe07816f82ecbfb&timestamp=1514624128&nonce=520674464&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: resultStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:20+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=d8e3128a99b4fb09d4ac02ac888dbf1f468ffbfd&timestamp=1514624420&nonce=996603571&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: resultStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:23+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:30+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:39+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:50+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:00:56+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:01:20+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=7bf0239ec82a5a96ce3de591fb6e7aea17df41a1&timestamp=1514624479&nonce=549645794&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: resultStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:01:22+08:00 ] 120.204.17.73 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:02:27+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:02:34+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:02:44+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:03:00+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:12:54+08:00 ] 223.211.215.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-12-30T17:13:19+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:13:40+08:00 ] 223.211.215.51 /index.php/Home/Lu/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:15:18+08:00 ] 223.211.215.51 /index.php/Home/Lu/shop-ui-login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:shop-ui-login
+
+[ 2017-12-30T17:18:51+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:24:01+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=a8413cb2f1f12121e7bf3265de2ad9d98c2ae711&timestamp=1514625839&nonce=31555857&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:24:11+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=526888ccb0191919bffe73fcee81a56f0861ff57&timestamp=1514625849&nonce=1962770267&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:25:07+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=b9b686eb5d913aa4c0b22608fab6b80db196dcb9&timestamp=1514625905&nonce=2137913020&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:28:28+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=30cac5f6b8ce123b2bbf3a1446bcc020de140570&timestamp=1514626106&nonce=532578706&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:31:01+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=9d65fd24593cac3ea2c61fad20aa832296445330&timestamp=1514626258&nonce=1980331544&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:43:25+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=127bb744dba3ecea323b14ae824d96c8581e72e2&timestamp=1514627003&nonce=826495521&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: msgType C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 182 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T17:43:58+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=b8bdbef88b8cf2790a7e643dca85431d49014f31&timestamp=1514627035&nonce=1814621671&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: msgType C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 182 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T17:44:10+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=2230bb246e122c0b7d543d185bb1ee79dfe819f4&timestamp=1514627048&nonce=1894224950&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined variable: msgType C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 182 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T17:45:04+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=82f1fcc1fa62b4a55fea1930b44596052762a847&timestamp=1514627100&nonce=1429251749&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:48:16+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=91afb38c0a1d670dfcaf5131334487351c4f546d&timestamp=1514627292&nonce=703702655&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:48:22+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=3bda2a58c25f308ca4a08b2103adede3e0e77614&timestamp=1514627298&nonce=533584284&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T17:51:07+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=69cf444557a45e7f0837a1885cbe79a2c14d0132&timestamp=1514627465&nonce=1494996420&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-12-30T17:51:21+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=44e4ba4c09b741b255a03aa4a0ad9798ff978d60&timestamp=1514627480&nonce=791587616&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-12-30T18:01:08+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=371c959f92ed3d1cfd7757a1a3eb9857bb4e9b54&timestamp=1514628067&nonce=1919924939&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015620s ]
+
+[ 2017-12-30T18:05:52+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=27e4776c70676d44fc7754fdbd5c34e0565e046a&timestamp=1514628351&nonce=1744027529&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T18:06:43+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=71fb5bf3359933bfeb0477dadfecab14e80ea484&timestamp=1514628402&nonce=461604913&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T18:07:21+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=60d832f13e5d48a881ee1c454c58f9d982901ef2&timestamp=1514628440&nonce=907565671&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015614s ]
+
+[ 2017-12-30T18:07:54+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=0458d41f4f6472ecba2e81ae14d29edeaa85a1d9&timestamp=1514628473&nonce=1381898501&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T18:08:34+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=a43049ce863d3378ef8d138f38fb77d659618da4&timestamp=1514628513&nonce=1280724251&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015615s ]
+
+[ 2017-12-30T19:09:57+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=82e4dbba96f81667398ac9ebe6b5e95453cc9bfe&timestamp=1514632195&nonce=1794793026&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-12-30T19:10:51+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=c30cd11f1e31fc697503bbda1f6f1445fe8beb4a&timestamp=1514632250&nonce=1647992942&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:11:34+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=2ed603f264ad85ebad503f409007f5321442b6fd&timestamp=1514632292&nonce=1281124724&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-30T19:11:53+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=66c2efb8a9d7dc52d273bb9cdca94e143174c20d&timestamp=1514632311&nonce=399652408&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-12-30T19:12:41+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=d9609b7db855faabc6edcee9e8b296eb6f4895a2&timestamp=1514632359&nonce=457472840&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:12:48+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=72b4ad221da9396709ab84846080aec3f1e724a2&timestamp=1514632366&nonce=345534512&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:16:17+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=f2e51ac1c7ff40f9518960500edcefdc8156022c&timestamp=1514632574&nonce=432882148&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:16:23+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=812338cfa8be9a3cc32ed0fea8a6694b53746d8b&timestamp=1514632581&nonce=1491678197&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:16:36+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=ac2455234a57f0373df7fc76e445b714e4b5bd09&timestamp=1514632594&nonce=1387267325&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:17:07+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=23c40ac925c27291ec5ddce5b389b64e3e209b79&timestamp=1514632624&nonce=1839745847&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:19:19+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=0d9d0cee167e799d31b99da2c9de65170a6f1d18&timestamp=1514632757&nonce=525972181&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:19:28+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=168220b6df0e23dffbe1ba8e2bbe862572547d6f&timestamp=1514632766&nonce=2066651826&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:20:39+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=f3ce734880c81cf61416e2491f1c8ddb6d50db74&timestamp=1514632837&nonce=2087765262&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:21:14+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=ceb1bc56e5f95c9d36fcd9d3e1cbd1c0751469f9&timestamp=1514632872&nonce=248953431&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:23:37+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=a006a84f86d2ae2a4a2108260c4b5914f69bdf40&timestamp=1514633015&nonce=1652742165&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T19:24:18+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=7202f45313402e7f9b771938ee6afb7c16ecab2a&timestamp=1514633056&nonce=1851503042&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T19:27:47+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=0103512f544df99828a29d9cfdb7691a7ed23c1e&timestamp=1514633264&nonce=402604029&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:29:29+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=03cae59e472520e9c9a3dc787609c39e395b1f3b&timestamp=1514633366&nonce=1039747173&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE `id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:29:48+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=d5e8d908c7e931b89c18820e46eb820ddd141f91&timestamp=1514633386&nonce=1928286957&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE `id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:30:45+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=0064c8fc84d1243da89d96bac8575e0d9ef95ac1&timestamp=1514633443&nonce=1461164792&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE `id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:31:15+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=8d920ca3b8bd9c1948a46f9e0ce84451fac6af45&timestamp=1514633473&nonce=2043636743&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE `id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015607s ]
+
+[ 2017-12-30T19:33:39+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=a6e5ff699c1417fa7ec8d63dc189f8387a7266f0&timestamp=1514633618&nonce=1285312756&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-12-30T19:44:51+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=adf7ad72f1e2f1ee5b05fc58f410e4c3fa747797&timestamp=1514634290&nonce=2068658966&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:47:35+08:00 ] 223.211.215.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:48:25+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:48:47+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_member` WHERE ( uname='111' )  [ RunTime:0.0000s ]
+
+[ 2017-12-30T19:48:56+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:52:56+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=f5d139535cba7041e5b1de09d72839b5cae85f5b&timestamp=1514634776&nonce=757183654&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 199 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:54:57+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=8ad2341f060d4a59c757f3e5b72d80c8f500a444&timestamp=1514634896&nonce=883087568&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:55:04+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=bfa553a7dfe175c1b15dd9d71408d09e32c123f7&timestamp=1514634903&nonce=1852638688&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T19:55:38+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=4683203b23d3d594e24b1ef0d6a71de8ac072439&timestamp=1514634937&nonce=2113780908&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:04:29+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=5bd47b6734fa773b5b4186f14d52c2e2bfa50f14&timestamp=1514635468&nonce=1837506691&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 200 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:08:21+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=357fd9c658135306deaa5a402948a16971cd0959&timestamp=1514635699&nonce=1033113045&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:08:53+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=beb1c64d2126adf010eef9fb4a101cdc0be2277d&timestamp=1514635732&nonce=1965962155&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:09:27+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=95a2ce05cea14b4090f0051f13abc434f6417020&timestamp=1514635766&nonce=1724525017&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:09:52+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=850fa88c547825cfa155b60f1947d69a7b939a54&timestamp=1514635791&nonce=252749480&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:10:22+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=3bdb0d50e6fd6d327bd47ff6f0aca32b1a2b3bc4&timestamp=1514635821&nonce=224647899&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:14:39+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=1d5fb5dd55d340fda51d4f42c3ad32d47ae743da&timestamp=1514636078&nonce=1000622235&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:15:14+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=f68db12029c5908daa598fb6823d9215e50743c2&timestamp=1514636113&nonce=849086899&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+
+[ 2017-12-30T20:27:03+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=bf9465b2c4a21d71a7993116748be92d81a7538a&timestamp=1514636822&nonce=1422774922&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 1146:Table 'luweixin.iphone_iphone_joke' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `iphone_iphone_joke`
+ERR: 1146:Table 'luweixin.iphone_iphone_joke' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `iphone_iphone_joke`
+NOTIC: [2] Cannot modify header information - headers already sent C:\code\lutp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\code\lutp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2017-12-30T20:27:26+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=0391c38a9d9499cc2657f311be6a73291a914eff&timestamp=1514636845&nonce=1124799588&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 206 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015599s ]
+
+[ 2017-12-30T20:27:55+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=472d186cbd912ac5c6993a00eb886d32285a8399&timestamp=1514636874&nonce=1735230117&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+NOTIC: [2] Illegal string offset 'content' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:28:15+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=dd77a8f0d45e123453f575c4cdb062ecd79636eb&timestamp=1514636894&nonce=311123039&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+NOTIC: [2] Illegal string offset 'id' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:29:12+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=58919c9bdda4ea5faad57c8f89fd6cab501c12c1&timestamp=1514636951&nonce=1650934542&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'id' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+NOTIC: [2] Illegal string offset 'id' C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:30:06+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=a0dc715e84b6f25557c7c8ad0dbe632a03e2c148&timestamp=1514637004&nonce=1878480032&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 206 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:39:05+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=2f3439c4ccaabb6ab9c8fc6bcfe69edc9d10046e&timestamp=1514637545&nonce=922397944&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 206 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T20:44:00+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=6ead86e95fcc7a94d8062ac20c3075ffee86c733&timestamp=1514637839&nonce=1643947245&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:05:39+08:00 ] 223.211.215.51 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-12-30T21:05:43+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:05:55+08:00 ] 223.211.215.51 /index.php/Home/Lu/shop-ui-login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:shop-ui-login
+
+[ 2017-12-30T21:06:10+08:00 ] 223.211.215.51 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:11:51+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:21:26+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:21:29+08:00 ] 223.211.215.51 /index.php/home/Lu/uname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_member` WHERE ( uname=111 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:21:42+08:00 ] 223.211.215.51 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:21:45+08:00 ] 223.211.215.51 /index.php/home/Lu/uname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_member` WHERE ( uname=1111 ) LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:26:01+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=ff1a6afad02783bf0e45c36960cf02d7078d1aff&timestamp=1514640361&nonce=1761207019&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:26:23+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=f1798b9f40449660bb934d62d7a65f69c765e5ca&timestamp=1514640384&nonce=581594747&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 202 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:39:30+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=c641c998282ad472e3d9b63909ee64afec091e92&timestamp=1514641171&nonce=1804020874&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:41:38+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=42d8f64ac19b2db71c88ae6753a647acda294961&timestamp=1514641299&nonce=629459005&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:43:32+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=faaeb66e5b9975db24bc05a50248d5b8df781be4&timestamp=1514641412&nonce=1164845287&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T21:43:41+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=21271f2eae9d3b5d81616cf3c5500bfb2f30afdc&timestamp=1514641422&nonce=1371025535&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T23:04:28+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=d4b6779f76d4c0b3b5df7fe227d3c58aaa5ae6dd&timestamp=1514646270&nonce=1965042346&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-30T23:04:32+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=0d404d2aad60023265ad37287c5035ededbaf80f&timestamp=1514646274&nonce=378879016&openid=oLrCbwoL1FiHNVXQwpcNbaHNJ4_U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object C:\code\lutp\ThinkPHP\Library\Think\Db.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 203 行.
+NOTIC: [8] Undefined variable: contentStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

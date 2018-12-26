@@ -1,0 +1,563 @@
+[ 2018-01-02T15:38:50+08:00 ] 106.11.226.242 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0195s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-01-02T16:29:16+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=9e55a5c33bbac127b1f13ed5906ec608e94d9ec6&timestamp=1514881755&nonce=1530836183&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: insert into iphone_token (token_value,token_time) values('5_yHlhzKY1U3HEwyfe7KjAgGLnn5GJTDTW2-EWpRPB5q0wtsZV0jx1sT0JQVKwQFc6Q_SmEN6i66b_6D4cjGhmw1ZQSLzjFS4pOpa9C2fQML_Qxr6Sy0zzXnLhSbQUqCOuawgtg97urXYKUPkcQFHiADAJYA','2018-01-02 16:29:16') [ RunTime:0.0000s ]
+
+[ 2018-01-02T16:30:07+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=f07ffdd0dcd281f75c93b17be5469386be9c0d6e&timestamp=1514881807&nonce=1293978920&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'luweixin.iphone_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `iphone_user`
+ERR: 1146:Table 'luweixin.iphone_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `iphone_user`
+NOTIC: [2] Cannot modify header information - headers already sent C:\code\lutp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent C:\code\lutp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-01-02T16:30:18+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=0f20fc725705a1b4e12ab367e8828e51d89bb082&timestamp=1514881817&nonce=821351874&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015603s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:30:20+08:00 ] 125.41.181.2 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:45:10+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=4519897ad0f40fc4ed2976d09c1091b7ee0e1efb&timestamp=1514882708&nonce=918416685&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_joke` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_joke` WHERE ( id=10 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:58:03+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Undefined variable: url C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 798 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-01-02T16:58:12+08:00 ] 125.41.181.3 /index.php/Home/Lu/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:58:13+08:00 ] 125.41.181.3 /index.php/Home/Lu/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:58:15+08:00 ] 125.41.181.3 /index.php/Home/Lu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\LuController.class.php on line 118 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\LuController.class.php on line 118 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [8] Undefined variable: scene_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+NOTIC: [8] Undefined variable: is_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1412 行.
+NOTIC: [8] Undefined property: stdClass::$ticket C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1413 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000975s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Undefined variable: mobile_code C:\code\lutp\Application\Runtime\Cache\Home\e890ee3ba23ac24f41026c82bd423603.php 第 545 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T16:58:26+08:00 ] 125.41.181.3 /index.php/home/Lu/uname.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_member` [ RunTime:0.0322s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `iphone_member` WHERE ( uname= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `iphone_member` WHERE ( uname= ) LIMIT 1  
+
+[ 2018-01-02T16:58:30+08:00 ] 125.41.181.3 /index.php/Home/Lu/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在:./Application/Home/View/Lu/index.html
+
+[ 2018-01-02T17:02:40+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [8] Undefined variable: scene_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+NOTIC: [8] Undefined variable: is_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1412 行.
+NOTIC: [8] Undefined property: stdClass::$ticket C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1413 行.
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0020s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0010s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-01-02T17:03:58+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [8] Undefined variable: scene_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+NOTIC: [8] Undefined variable: is_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1412 行.
+NOTIC: [8] Undefined property: stdClass::$ticket C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1413 行.
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0020s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0010s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:04:05+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [8] Undefined variable: scene_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+NOTIC: [8] Undefined variable: is_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1412 行.
+NOTIC: [8] Undefined property: stdClass::$ticket C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1413 行.
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0020s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0010s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:05:54+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WeixinController::geturl(), called in C:\code\lutp\Application\Home\Controller\IndexController.class.php on line 11 and defined C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1416 行.
+NOTIC: [8] Undefined variable: scene_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+NOTIC: [8] Undefined variable: is_id C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1417 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1412 行.
+NOTIC: [8] Undefined property: stdClass::$ticket C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 1413 行.
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0019s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0010s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:19:53+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:20:54+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0019s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: url C:\code\lutp\Application\Home\Controller\IndexController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:21:10+08:00 ] 125.41.181.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0020s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T17:35:20+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=3d4e2718006c9892f5a8882554bd6cddc8fff00e&timestamp=1514885719&nonce=1642768233&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: resultStr C:\code\lutp\Application\Home\Controller\WeixinController.class.php 第 302 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T18:07:31+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=08075d09ee6c47689935ac8f6dbd62c251c75258&timestamp=1514887649&nonce=1720029379&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T18:07:32+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=7e7b303c778e9e51071e53af6dc2db914b5d4991&timestamp=1514887651&nonce=1960455880&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-01-02T18:07:34+08:00 ] 223.211.215.50 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0029s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000975s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-01-02T18:07:35+08:00 ] 223.211.215.50 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0020s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-02T18:07:42+08:00 ] 140.207.54.79 /index.php/Home/Weixin/index?signature=0cbe89ddb382d14149285b0baf8cfa8555718c42&timestamp=1514887660&nonce=329462879&openid=oWpmw1FdeKyNHSgVnFbQLuVwR6nE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\lutp\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

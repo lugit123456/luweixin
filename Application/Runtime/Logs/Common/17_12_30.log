@@ -1,0 +1,12 @@
+[ 2017-12-30T16:55:32+08:00 ] 223.211.215.51 /index.php/Weixin/Goods/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Weixin
+
+[ 2017-12-30T16:55:37+08:00 ] 223.211.215.51 /index.php/Weixin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Weixin
+

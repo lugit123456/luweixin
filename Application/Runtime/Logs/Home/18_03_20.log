@@ -1,0 +1,32 @@
+[ 2018-03-20T12:12:25+08:00 ] 106.11.226.2 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `iphone_token` ORDER BY token_time desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `iphone_text` [ RunTime:0.0537s ]
+SQL: INSERT INTO `iphone_text` (`content`,`addtime`) VALUES ('s:193:\"{\"access_token\":\"7_XRpaSotS9P3U1gHsSVAVtxzq1Z3r3N9Ay9xLQY_db_7tpLaP5DXs-GSEt4dJ31k4UoGuVGdmPNs9HmUm6ZDFw9-qh9E5jLPVped793rAay56lhHq5QM9UQ_wZC_NVPgv20K_21Yh1eoZlva_QWOdAIALRJ\",\"expires_in\":7200}\";','2018-03-20 12:12:24') [ RunTime:0.0010s ]
+SQL: INSERT INTO `iphone_token` (`token_time`,`token_value`) VALUES ('2018-03-20 12:12:24','7_XRpaSotS9P3U1gHsSVAVtxzq1Z3r3N9Ay9xLQY_db_7tpLaP5DXs-GSEt4dJ31k4UoGuVGdmPNs9HmUm6ZDFw9-qh9E5jLPVped793rAay56lhHq5QM9UQ_wZC_NVPgv20K_21Yh1eoZlva_QWOdAIALRJ') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0039s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\lutp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 648 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
