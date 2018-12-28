@@ -238,7 +238,8 @@ public function wx_http_request($url, $params, $body="", $isPost=false, $isImage
                             $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                         }
                         if ("笑话" == $postObj->EventKey) {
-                            $and = rand(1, 10);
+                            $and = M('joke')->count();
+                            $and = rand(1, $and);
                             $content = M('joke')->where("id=$and")->select();
                             foreach ($content as $k => $v) {
                                 $contentStr = $v['content'];
@@ -278,7 +279,8 @@ public function wx_http_request($url, $params, $body="", $isPost=false, $isImage
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 } else {
                     if ($keyword == "笑话") {
-                        $and = rand(1, 10);
+			$and = M('joke')->count();
+                        $and = rand(1, $and);
                         $content = M('joke')->where("id=$and")->select();
                         foreach ($content as $k => $v) {
                             $contentStr = $v['content'];
